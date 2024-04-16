@@ -4,19 +4,19 @@ DarvTaskManager is a versatile task management application designed to efficient
 Fields are customizable to suit individual or business needs, reflecting the versatility of the app.
 
 ## Features
-  -Task Addition: Easily add new tasks with comprehensive details.
-  -Task Editing: Update existing tasks to reflect changes or current status.
-  -Task Deletion: Remove tasks that are no longer necessary.
-  -Task Archiving: Keep your active task list clutter-free by moving completed tasks to an archived state.
-  -View Switching: Switch between active and archived views to focus on tasks relevant to your current needs.
-  -Task Viewing: Access detailed descriptions and status of tasks through a modal dialogue by double-clicking a task.
+- **Task Addition**: Easily add new tasks with comprehensive details.
+- **Task Editing**: Update existing tasks to reflect changes or current status.
+- **Task Deletion**: Remove tasks that are no longer necessary.
+- **Task Archiving**: Keep your active task list clutter-free by moving completed tasks to an archived state.
+- **View Switching**: Switch between active and archived views to focus on tasks relevant to your current needs.
+- **Task Viewing**: Access detailed descriptions and status of tasks through a modal dialogue by double-clicking a task.
 
 ## Roadmap
 Planned features for future releases:
 
-  -Filters: Enhance task visibility and management efficiency by implementing filters that allow users to easily audit tasks based on various criteria.
-  -Dynamic GUI: Improve the user experience across different devices with a dynamic layout that adjusts seamlessly to various screen sizes.
-  -Export Data: Enable data export to CSV or Excel formats for improved project tracking and communication with management.
+- **Filters**: Enhance task visibility and management efficiency by implementing filters that allow users to easily audit tasks based on various criteria.
+- **Dynamic GUI**: Improve the user experience across different devices with a dynamic layout that adjusts seamlessly to various screen sizes.
+- **Export Data**: Enable data export to CSV or Excel formats for improved project tracking and communication with management.
 
 ## Prerequisites
 Before installation, ensure you have Python installed on your system. If not, download it from python.org.
@@ -39,13 +39,13 @@ Clone the repository:
 DarvTaskManager uses a pre-configured SQLite database (tasks.db). This database should exist in the project directory with the following schema:
 
 **tasks table:
-    -id: Integer, primary key, auto-increment.
-    -name: String.
-    -table_name: String.
-    -email: String.
-    -saved_email: String.
-    -task_description: Text.
-    -completed: Integer (0 for active, 1 for archived).
+- **id: Integer**, primary key, auto-increment.
+- **name**: String.
+- **table_name**: String.
+- **email: String**.
+- **saved_email**: String.
+- **task_description**: Text.
+- **completed**: Integer (0 for active, 1 for archived).
 
 No syntax restrictions are imposed on the fields, offering flexibility for adaptation and use.
 
