@@ -32,12 +32,37 @@ Clone the repository:
 
 3. Install the necessary dependencies (ensure you have Python installed)
 
-4. To start the application, run the following command in the root of the project directory:
-   python main.py or go to main folder and execute on cmd >> pyinstaller --onefile --windowed main.py and
-   an executable file will be created in a folder called dist.
-   **I implemented this code with a fixed database path, modify accordlingly in db_manager.py**
+4. To start the application, you have two primary options:
 
-   
+### Running Directly with Python
+
+Navigate to the root of the project directory and run the following command:
+
+```bash
+python main.py /bash
+```
+
+This method allows you to run the application directly from the source code.
+
+### Creating an Executable
+
+If you prefer to create an executable, navigate to the main folder and execute the following command in the command prompt (cmd):
+
+```bash
+pyinstaller --onefile --windowed main.py
+```
+
+This command uses PyInstaller to compile the application into a single executable file, which will be located in a folder named `dist` within your project directory.
+
+### Note on Database Configuration
+
+The application uses a fixed path for the database file, located within the `db_manager.py` file. If the default database path does not suit your needs or if you encounter issues with database access (particularly after moving the application to a different environment), you may need to modify the path accordingly:
+
+1. Open the `db_manager.py` file.
+2. Locate the `get_database_path` function.
+3. Adjust the path in the `app_data_dir` line to an appropriate location on your system.
+
+Ensure the chosen path is accessible and writable by the application to avoid any runtime errors.
 
 ## Database Setup
 DarvTaskManager uses a pre-configured SQLite database (tasks.db). This database should exist in the project directory with the following schema:
