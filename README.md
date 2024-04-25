@@ -10,6 +10,7 @@ Fields are customizable to suit individual or business needs, reflecting the ver
 - **Task Archiving**: Keep your active task list clutter-free by moving completed tasks to an archived state.
 - **View Switching**: Switch between active and archived views to focus on tasks relevant to your current needs.
 - **Task Viewing**: Access detailed descriptions and status of tasks through a modal dialogue by double-clicking a task.
+- - **Sorting**: Sorting available: alphabetical order and last date modified.
 
 ## Roadmap
 Planned features for future releases:
