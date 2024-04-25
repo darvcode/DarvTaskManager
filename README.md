@@ -67,7 +67,7 @@ Ensure the chosen path is accessible and writable by the application to avoid an
 ## Database Setup
 DarvTaskManager uses a pre-configured SQLite database (tasks.db). This database should exist in the project directory with the following schema:
 
-## Tasks table:
+**Tasks table**
 - **id: Integer**, primary key, auto-increment.
 - **name**: String.
 - **table_name**: String.
