@@ -3,7 +3,7 @@ DarvTaskManager is a versatile task management application designed to efficient
 
 Fields are customizable to suit individual or business needs, reflecting the versatility of the app.
 
-## Features
+**Features**
 - **Task Addition**: Easily add new tasks with comprehensive details.
 - **Task Editing**: Update existing tasks to reflect changes or current status.
 - **Task Deletion**: Remove tasks that are no longer necessary.
