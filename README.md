@@ -32,7 +32,7 @@ Clone the repository:
 
 3. Install the necessary dependencies (ensure you have Python installed)
 
-//I implemented this code with a fixed database path, modify accordlingly in db_manager.py
+**I implemented this code with a fixed database path, modify accordlingly in db_manager.py**
 4. To start the application, run the following command in the root of the project directory:
    python main.py or go to main folder and execute on cmd >> pyinstaller --onefile --windowed main.py and
    an executable file will be created in a folder called dist.
