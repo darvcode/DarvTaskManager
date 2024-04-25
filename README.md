@@ -10,7 +10,7 @@ Fields are customizable to suit individual or business needs, reflecting the ver
 - **Task Archiving**: Keep your active task list clutter-free by moving completed tasks to an archived state.
 - **View Switching**: Switch between active and archived views to focus on tasks relevant to your current needs.
 - **Task Viewing**: Access detailed descriptions and status of tasks through a modal dialogue by double-clicking a task.
-- - **Sorting**: Sorting available: alphabetical order and last date modified.
+- **Sorting**: Sorting available: alphabetical order and last date modified.
 
 ## Roadmap
 Planned features for future releases:
@@ -32,10 +32,10 @@ Clone the repository:
 
 3. Install the necessary dependencies (ensure you have Python installed)
 
-**I implemented this code with a fixed database path, modify accordlingly in db_manager.py**
 4. To start the application, run the following command in the root of the project directory:
    python main.py or go to main folder and execute on cmd >> pyinstaller --onefile --windowed main.py and
    an executable file will be created in a folder called dist.
+   **I implemented this code with a fixed database path, modify accordlingly in db_manager.py**
 
    
 
