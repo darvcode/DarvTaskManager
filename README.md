@@ -81,7 +81,6 @@ No syntax restrictions are imposed on the fields, offering flexibility for adapt
 ## Additional Tools
 For data retrieval and management, DBeaver is used to execute SQL queries effectively, facilitating ongoing communication with management and aiding in task review and personal audits.
 
+## License
 
-
-
-
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
